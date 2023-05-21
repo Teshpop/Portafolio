@@ -3,8 +3,8 @@ import { About, Header, Hero, Experience } from "./components";
 function App() {
   return (
     <>
-      <div>
-        <div>
+      <div className="h-screen w-screen bg-primary">
+        <div className="bg-secondary">
           <Header />
         </div>
         <Hero />
