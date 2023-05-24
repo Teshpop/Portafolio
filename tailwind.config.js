@@ -13,6 +13,9 @@ export default {
         },
       },
     },
+    backgroundImage: {
+      header: "url('/src/assets/background.jpg')",
+    },
   },
   plugins: [],
 };
