@@ -12,6 +12,9 @@ export default {
           200: "#2A405E",
         },
       },
+      screens: {
+        xs: "500px",
+      },
     },
     backgroundImage: {
       header: "url('/src/assets/background.jpg')",
