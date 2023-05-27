@@ -3,9 +3,9 @@ import { Tierra } from "./canvas";
 import { Tilt } from "react-tilt";
 import { contCard } from "../constans";
 
-function Card({ title, icon }) {
+function Card({ title, icon, index }) {
   return (
-    <Tilt className="sm:w-[250px] w-full mx-2">
+    <Tilt key={index} className="sm:w-[250px] w-full mx-2">
       <div className="bg rounded-md py-5 px-5 flex justify-center items-center flex-col">
         <img src={icon} alt={title} className="h-16 w-16" />
         <h3 className="text-xl font-bold">{title}</h3>
@@ -33,8 +33,8 @@ function About() {
           juegos sean emocionantes y envolventes.
         </p>
         <div className="flex flex-wrap gap-4 justify-center items-center py-3">
-          {contCard.map((cont) => (
-            <Card title={cont.title} icon={cont.icon} />
+          {contCard.map((cont, index) => (
+            <Card title={cont.title} icon={cont.icon} index={index} />
           ))}
         </div>
       </div>

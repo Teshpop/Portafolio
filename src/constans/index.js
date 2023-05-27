@@ -1,4 +1,10 @@
-import { tailwindcss, boots, unity, react } from "../assets";
+import {
+  tailwindcss,
+  boots,
+  unity,
+  react,
+  RegresionPolinomial,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -113,5 +119,36 @@ export const contCard = [
   {
     title: "React",
     icon: react,
+  },
+];
+
+export const experience = [
+  {
+    title: "Wellness",
+    icon: react,
+    iconBg: "#61DAFB",
+    preview:
+      "https://cdn.pixabay.com/photo/2018/06/17/20/35/chain-3481377_960_720.jpg",
+    points: [
+      "Desarrollo Back-end formulario Mysql, Express",
+      "Desarrollo Front-end React.js",
+      "Implementacion de diseño responsivo",
+      "Participacion en el diseño de la pagina",
+    ],
+    link: "#",
+    date: "09/05/2023",
+  },
+  {
+    title: "Regresion Polinomial",
+    icon: RegresionPolinomial,
+    iconBg: "#fff",
+    preview: RegresionPolinomial,
+    points: [
+      "Desarrollo Front-end Vanilla.JS",
+      "Implementacion de ecuaciones de regresion polinomial",
+      "Implementacion de diseño responsivo",
+    ],
+    link: "https://regresion-polinomial.vercel.app/",
+    date: "20/05/2023",
   },
 ];

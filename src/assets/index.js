@@ -7,6 +7,7 @@ import boots from "./boots.svg";
 import react from "./react.png";
 import unity from "./unity.png";
 import tailwindcss from "./tailwindcss.png";
+import RegresionPolinomial from "./RPicon.png";
 
 export {
   logo,
@@ -18,4 +19,5 @@ export {
   react,
   unity,
   tailwindcss,
+  RegresionPolinomial,
 };
