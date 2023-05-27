@@ -54,6 +54,7 @@ function Experience() {
               <a
                 className={`bg-secondary py-2 px-2 rounded-md text-xl font-bold animate-pulse hover:animate-none transition-all duration-150`}
                 href={points.link}
+                target="_blank"
               >
                 Visitar sitio
               </a>
