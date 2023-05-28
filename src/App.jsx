@@ -1,8 +1,10 @@
+import { Opacity } from "tsparticles-engine";
 import { NavBar, About, Hero, Experience, Background } from "./components";
+import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <Background />
       <div>
         <div>
@@ -12,7 +14,7 @@ function App() {
         <About />
         <Experience />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
